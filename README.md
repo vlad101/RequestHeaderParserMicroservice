@@ -1,6 +1,17 @@
-# workspace
+# API Basejump: Timestamp microservice
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.2.0.
+
+## Instructions:
+	The API returns 
+		- The IP address
+		- Operating system for your browser (language, software).
+
+## Example usage:
+http://localhost:9000/api/whoami
+
+## Example output:
+{ "unix": 1450137600, "natural": "December 15, 2015" }
 
 ## Getting Started
 
